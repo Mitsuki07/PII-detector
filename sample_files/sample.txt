@@ -1,0 +1,5 @@
+This is a sample text file.
+Email: example@example.com
+Phone: +91 9876543210
+Aadhar: 1234 5678 9012
+PAN: ABCDE1234F
