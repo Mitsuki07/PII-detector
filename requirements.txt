@@ -1,0 +1,6 @@
+pymupdf
+pytesseract
+pandas
+pillow
+python-docx
+openpyxl
