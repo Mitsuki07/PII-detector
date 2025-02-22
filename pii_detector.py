@@ -73,14 +73,8 @@ def extract_pii(text):
             matches = re.findall(pattern, text)
             redacted_values = []
             for match in matches:
-                if key == "Email":
-                    redacted_values.append("*****@example.com")
-                elif key == "Phone":
-                    redacted_values.append("**********")
-                elif key == "Aadhar":
-                    redacted_values.append("**** **** ****")
-                elif key == "PAN":
-                    redacted_values.append("*****1234*")
+                redacted_value = "****" + match[4:]
+                redacted_values.append(redacted_value)
             redacted_pii[key] = redacted_values
         return redacted_pii
     
@@ -118,11 +112,16 @@ def process_directory(directory_path):
             file_path = os.path.join(root, file)
             redacted_pii = process_file(file_path)
             pii_results_all[file_path] = redacted_pii
-            print(f"Processed: {file_path}")
+            print(f"\nProcessed: {file_path}")
             
             # Check if any PII was detected
             if any(redacted_pii.values()):  # If PII is found
-                print(f"Redacted PII: {redacted_pii}")
+                # print(f"Redacted PII: {redacted_pii}")
+                for key, values in redacted_pii.items():
+                    print(f"{key}:")
+                    for value in values:
+                        print(f"  - {value}")
+                    print()
             else:  # If no PII is found
                 print("No PII found.")
     return pii_results_all

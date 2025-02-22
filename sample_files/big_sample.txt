@@ -1,0 +1,89 @@
+# Sample File with Diverse PII Data
+
+1. Contact Information:
+   - Email: john.doe@example.com
+   - Phone: +91 9876543210
+   - Alternate Phone: 9876543211
+   - Address: 123 Main Street, City, Country
+
+2. Identification Documents:
+   - Aadhar Number: 1234 5678 9012
+   - PAN Card: ABCDE1234F
+   - Passport: A1234567
+   - Driving License: DL1234567890123
+
+3. Financial Details:
+   - Bank Account: 123456789012
+   - Credit Card: 4111 1111 1111 1111
+   - IFSC Code: HDFC0001234
+
+4. Employee Records:
+   - Name: Jane Smith
+   - Email: jane.smith@company.com
+   - Phone: +91 9988776655
+   - Aadhar: 2345 6789 0123
+   - PAN: BCDEF2345G
+
+5. Customer Records:
+   - Name: Alice Johnson
+   - Email: alice.johnson@gmail.com
+   - Phone: +91 8877665544
+   - Aadhar: 3456 7890 1234
+   - PAN: CDEFG3456H
+
+6. Vendor Records:
+   - Name: Bob Brown
+   - Email: bob.brown@vendor.com
+   - Phone: +91 7766554433
+   - Aadhar: 4567 8901 2345
+   - PAN: DEFGH4567I
+
+7. Miscellaneous Data:
+   - Email: test.user@domain.org
+   - Phone: +91 6655443322
+   - Aadhar: 5678 9012 3456
+   - PAN: EFGHI5678J
+
+8. Social Media Profiles:
+   - Email: social.media@network.com
+   - Phone: +91 5544332211
+   - Aadhar: 6789 0123 4567
+   - PAN: FGHIJ6789K
+
+9. Marketing Contacts:
+   - Email: marketing@business.com
+   - Phone: +91 4433221100
+   - Aadhar: 7890 1234 5678
+   - PAN: GHIJK7890L
+
+10. Support Team:
+    - Email: support@service.com
+    - Phone: +91 3322110099
+    - Aadhar: 8901 2345 6789
+    - PAN: HIJKL8901M
+
+11. Additional Entries:
+    - Email: user1@example.com
+    - Phone: +91 2211009988
+    - Aadhar: 9012 3456 7890
+    - PAN: IJKLM9012N
+
+    - Email: user2@example.com
+    - Phone: +91 1100998877
+    - Aadhar: 0123 4567 8901
+    - PAN: JKLMN0123O
+
+    - Email: user3@example.com
+    - Phone: +91 9988776655
+    - Aadhar: 1234 5678 9012
+    - PAN: KLMNO1234P
+
+    - Email: user4@example.com
+    - Phone: +91 8877665544
+    - Aadhar: 2345 6789 0123
+    - PAN: LMNOP2345Q
+
+    - Email: user5@example.com
+    - Phone: +91 7766554433
+    - Aadhar: 3456 7890 1234
+    - PAN: MNOPQ3456R
